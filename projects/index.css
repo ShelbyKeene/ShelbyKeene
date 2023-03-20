@@ -1,7 +1,3 @@
-.main-projects-div{
-
-    color: brown;
- }
 
  body{
     background-image: url('/photos/Projects.jpg');
@@ -9,3 +5,51 @@
     background-size: cover;
     height: 100vh;
   }
+
+// grid layout
+  .projects { 
+   display: grid; 
+   grid-template-columns: repeat(5, 1fr); 
+   grid-template-rows: repeat(4, 1fr); 
+   grid-column-gap: 2px;
+   grid-row-gap: 15px; 
+   }
+   
+   .projectOne { 
+      grid-area: 2 / 1 / 3 / 4;
+      border: 2px solid none;
+      width: 70%;
+      height: 25vh;
+      margin: 2% 25% auto 2%;
+      background-color: #754b35;
+      opacity: 20%;
+      border-radius: 3%;
+      box-shadow: 13px 20px 20px #4f3325,
+      -13px -13px 20px #fff;
+   } 
+
+   .projectTwo { 
+      grid-area: 3 / 3 / 4 / 6;
+      border: 2px solid none;
+      width: 70%;
+      height: 25vh;
+      margin: 2% 2% auto 25%;
+      background-color: #754b35;
+      opacity: 20%;
+      border-radius: 3%;
+      box-shadow: 13px 18px 18px #4f3325,
+      -13px -13px 20px #fff;
+   } 
+
+   .projectThree { 
+      grid-area: 4 / 1 / 5 / 4;
+      border: 2px solid none;
+      width: 70%;
+      height: 25vh; 
+      margin: 2% 25% auto 2%;
+      background-color: #754b35;
+      opacity: 20%;
+      border-radius: 3% 3%;
+      box-shadow: 13px 20px 20px #4f3325,
+      -13px -13px 20px #fff;
+   } 
