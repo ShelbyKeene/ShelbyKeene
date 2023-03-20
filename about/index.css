@@ -2,3 +2,10 @@
 
     color: rgb(236, 18, 207);
  }
+
+ body{
+    background-image: url('/photos/abutMe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }

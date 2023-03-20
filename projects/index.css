@@ -2,3 +2,10 @@
 
     color: brown;
  }
+
+ body{
+    background-image: url('/photos/Projects.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
