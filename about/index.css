@@ -1,63 +1,82 @@
 
 
- body{
-    background-image: url('/photos/abutMe.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
+ body {
+   background-image: url('/photos/abutMe.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+ }
 
-  .about{
-   display:flex;
-   align-items:center;
-   justify-content:center;
-   flex-flow:column;
+ .about {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: column;
    position: relative;
    padding: 10% 5%;
 
  }
- 
- .about h3{
-   font-size:2.5rem;
-   font-weight:lighter;
+
+ .about h3 {
+   font-size: 2.5rem;
+   font-weight: lighter;
    color: #4f3325;
  }
 
- .about .name span{
-   font-size:4rem;
-     color:#fff;
+ .about .name span {
+   font-size: 4rem;
+   color: #4f3325;
+   font-family: 'La Belle Aurore', cursive;
  }
- 
- .about .post{
-   padding:1rem 0;
+
+ .about .post {
+   padding: 1rem 0;
  }
- 
- .about .post span{
-   font-size:2rem;
-     color:#fff;
+
+ .about .post span {
+   font-size: 2rem;
+   color: #fff;
  }
+
  .aboutBox {
    height: 65vh;
-   background: rgba(255,255,255,.2);
+   /* background: rgba(255,255,255,.2);
    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+   */
    backdrop-filter: blur(25%);
-   border-radius: 25%;
-   grid-area: 1/ 1 / 5 / 4; 
+   grid-area: 1/ 1 / 5 / 4;
    margin-left: 10%;
    margin-top: 8%;
+   overflow: scroll;
  }
 
- .grid { 
-   display: grid; 
-   grid-template-columns: repeat(5, 1fr); 
-   grid-template-rows: repeat(5, 1fr); 
+ .grid {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(5, 1fr);
    grid-column-gap: 0px;
-   grid-row-gap: 0px; 
-   }
+   grid-row-gap: 0px;
+ }
 
-  
-   .profile-image{
-    grid-area: 1 / 4/ 5/ 6;
-    margin: 25% 5% auto 10%;
-   }
 
+ .profile-image {
+   grid-area: 1 / 4/ 5/ 6;
+   margin: 23% 5% auto 10%;
+ }
+
+ p{
+  color: #4f3325;
+  font-size: larger;
+ }
+
+ .typing-text {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(40) forwards;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: auto; }
+}
