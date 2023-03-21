@@ -6,7 +6,7 @@
     height: 100vh;
   }
 
-// grid layout
+//grid layout
   .projects { 
    display: grid; 
    grid-template-columns: repeat(5, 1fr); 
@@ -21,12 +21,11 @@
       width: 70%;
       height: 25vh;
       margin: 2% 25% auto 2%;
-      background-color: #754b35;
-      opacity: 20%;
       border-radius: 3%;
-      box-shadow: 13px 20px 20px #4f3325,
-      -13px -13px 20px #fff;
-   } 
+      background-color: #efe7dd;
+      box-shadow: 1px 2px 2px #4f3325,
+        -2px -2px 3px #fff;
+        opacity: 70%;}
 
    .projectTwo { 
       grid-area: 3 / 3 / 4 / 6;
@@ -34,12 +33,11 @@
       width: 70%;
       height: 25vh;
       margin: 2% 2% auto 25%;
-      background-color: #754b35;
-      opacity: 20%;
       border-radius: 3%;
-      box-shadow: 13px 18px 18px #4f3325,
-      -13px -13px 20px #fff;
-   } 
+      background-color: #efe7dd;
+      box-shadow: 1px 2px 2px #4f3325,
+        -2px -2px 3px #fff;
+        opacity: 70%;}
 
    .projectThree { 
       grid-area: 4 / 1 / 5 / 4;
@@ -47,9 +45,11 @@
       width: 70%;
       height: 25vh; 
       margin: 2% 25% auto 2%;
-      background-color: #754b35;
-      opacity: 20%;
-      border-radius: 3% 3%;
-      box-shadow: 13px 20px 20px #4f3325,
-      -13px -13px 20px #fff;
-   } 
+      border-radius: 3%;
+      background-color: #efe7dd;
+      box-shadow: 1px 2px 2px #4f3325,
+        -2px -2px 3px #fff;
+        opacity: 70%;}
+
+
+   
