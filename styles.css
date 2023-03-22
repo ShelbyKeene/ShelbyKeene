@@ -19,6 +19,7 @@ video {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-color: #efe7dd;
   }
   
   .bg-color{
@@ -32,4 +33,11 @@ video {
   .navbar-brand{
     font-family: 'La Belle Aurore', cursive;
     font-size: 30px;
+  }
+
+  footer{
+    background-color: #efe7dd;
+    box-shadow: 9px 10px 10px #4f3325,
+      -13px -13px 20px #4f3325,
+      opacity: 80%;
   }

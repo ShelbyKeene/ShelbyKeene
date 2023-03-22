@@ -3,6 +3,8 @@
  body {
    background-image: url('/photos/abutMe.jpg');
    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
   
    
  }
@@ -60,7 +62,8 @@
 
  .profile-image {
    grid-area: 1/ 1 / 5 / 4;
-   margin: 10% auto auto 10%;
+   margin-top: 10%;
+   margin-left: 10%;
    border:2px solid none;
    overflow:hidden;
    height:fit-content;
@@ -74,7 +77,11 @@
   font-family:'Courier New', Courier, monospace;
  }
 
- .typing-text {
+ .icons{
+  height:20px;
+  width:20px;
+ }
+ /*.typing-text {
   white-space: nowrap;
   overflow: hidden;
   width: 0;
@@ -84,5 +91,5 @@
 @keyframes typing {
   from { width: 0; }
   to { width: auto; }
-}
+}*/
 
