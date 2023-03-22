@@ -8,8 +8,18 @@ padding: 0;
 
 video {
     display: block;
-    margin: 0 auto;
+    margin: 5% auto;
     height: auto;
     width: 75%;
+    border-radius: 10%;
   }
+
+  body{
+    background-image: url('/photos/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+
   
