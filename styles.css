@@ -21,5 +21,15 @@ video {
     height: 100vh;
   }
   
+  .bg-color{
+    background-color: #efe7dd;
+    box-shadow: 9px 10px 10px #4f3325,
+      -13px -13px 20px #fff;
+      opacity: 80%;
 
+  }
   
+  .navbar-brand{
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+  }

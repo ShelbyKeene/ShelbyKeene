@@ -10,10 +10,42 @@ body{
   .main-contact-div{
     border: 2px;
     border-radius: 5%;
-    margin: 10% 20%;
-    color:rgb(50, 22, 2);
+    margin: 5% 20%;
+    color:#4f3325;
     padding-left: 10%;
     align-items: center;
   }
 
- 
+ .btn-primary{
+  background-color:#4f3325;
+  border-color: #4f3325;
+  box-shadow: 1px 2px 2px #4f3325,
+      -2px -2px 3px #fff;
+   opacity:70%;
+ }
+
+ .btn-primary:hover{
+  background-color:#efe7dd;
+  border-color: #d9d1c9;
+  color:#4f3325;
+  box-shadow: 1px 2px 2px #4f3325,
+  -2px -2px 3px #fff;
+  opacity: 70%;
+ }
+
+ .form-control{
+  background-color: #efe7dd;
+    box-shadow: 1px 2px 2px #4f3325,
+      -2px -2px 3px #fff;
+      opacity: 70%;
+ }
+
+ h2{
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 120px;
+ }
+
+.contactSlogan{
+  margin-left: 10%;
+  font-size: 22px;
+}
