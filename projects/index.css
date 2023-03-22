@@ -88,5 +88,16 @@ grid-row-gap: 21px;
     margin-top:2%;
     }
 
+    h1{
+      font-family:'La Belle Aurore', cursive;
+      text-align: center;
+      margin-top: 3%;
+    }
 
+    p{
+      text-indent: 60px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      text-align: center;
+    }
    
