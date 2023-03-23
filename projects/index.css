@@ -103,3 +103,12 @@ grid-row-gap: 21px;
       text-align: center;
     }
    
+    a{
+      color:#9f7448;
+    }
+
+    a:hover{
+      color: #c78a39;
+    }
+ 
+ 
